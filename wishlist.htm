@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>previousorder</title>
+    <style>
+        .navbar{
+    display: flex;
+}
+.nav-list{
+    width: 50%;
+    
+    display: flex;
+    align-items:center;
+}
+.nav-list li{
+    list-style:none;
+    padding:26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+}
+.rightNav{
+    
+    width: 50%;
+    text-align:right;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 15px;
+}
+.squad7{
+  height:70px;
+  width:180px;
+}
+body{
+    background-color: black;
+}
+.squad7 {
+  width: 180px;
+  height: 70px;
+  animation: float 3s ease-out infinite;
+}
+@keyframes float{
+  50% {
+     transform: translate(0, 20px);
+  }}
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="\C:\Users\Dell\OneDrive\Desktop\img\squad7.png" class="squad7" alt="Logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="women.htm">Women</a></li>
+            <li><a href="project_main_2.htm">Men</a></li>
+            <li><a href="kids.htm">Kids</a></li>
+            <li><a href="faqs.htm">FAQS</a></li>
+            <li><a href="#home">Profile</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="serach" id="search">
+            <button class="btn btn-sm">serach</button>
+        </div>
+    </nav>
+    <h1 style="color: white; text-align: center; margin-top: 20%;">Your whishlist is currently empty</h1>
+</body>
+</html>

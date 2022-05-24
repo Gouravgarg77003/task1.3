@@ -1,0 +1,160 @@
+
+<!DOCTYPE HTML><html>
+<head>
+<title>Log in</title>
+</head>
+<style>
+   
+   body{
+	   background-color: black;
+   }
+    button{
+        font-size: 25px;
+        background-color: black;
+        color:white;
+        border-radius: 5px;
+		
+    }
+form{
+	margin-top: 15%;
+}
+
+
+    @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.dfg {
+	margin-bottom: 50%;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.content {
+	display: flex;
+	background: #000;
+	min-height: 100%;
+	justify-content: center;
+	margin-left: 260px;
+}
+
+.content {
+	position: relative;
+}
+
+.content h2 {
+	color: #fff;
+	position: absolute;
+	font-size: 6em;
+	transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px skyblue;
+}
+
+.content h2:nth-child(2) {
+	color: red;
+	animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+img{
+	width: 220px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+#one {
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count:  infinite;
+    }
+     
+    #two {
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+     
+    @keyframes example {
+        0% {
+            color: orange;
+        }
+        25% {
+            color: white;
+        }
+		50%{
+			color:red;
+		}
+		75%{
+			color:yellow;
+		}
+		100%{
+			color:green;
+		}
+    }
+</style>
+<body>
+	<img src="\C:\Users\Dell\OneDrive\Desktop\img\squad7.png">
+
+    <section>
+        <div class="content">
+            <h2 class="dfg">Login</h2>
+            <h2 class="dfg">Login</h2>
+        </div>
+    </section>
+<form action="frontpage.htm">
+<div align="center">
+<h2 style="color:white"><span style="background-color: black;" id="one">
+    UserName</span>
+<input type="text" name="UserName" size=35 maxlength=35 placeholder="" required>
+</h2>
+</br><h2 style="color:white"><span style="background-color: black;" id="two" >
+password</span>
+<input type="password" name="Deptt" size=35 maxlength=35 placeholder="******" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"> </br><br></h2>
+<button class="button2" type="submit">
+    <i class="#"></i> Log in
+  </button>
+  <button class="button2" type="reset">
+    <i class="#"></i> Reset
+  </button>
+</div>
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\bf.jfif" class="geeks4g">
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\gf.jfif" class="geeks4g">
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\hg.jfif" class="geeks4g">
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\we.jfif" class="geeks4g">
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\ew.jfif" class="geeks4g">
+<img src="\C:\Users\Dell\OneDrive\Desktop\shoes\hf.jfif" class="geeks4g">
+</form>
+</body>
+</html>
