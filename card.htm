@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('C:\\Users\\Dell\\OneDrive\\Desktop\\shoes\\res.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        label{
+            font-size: 23px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<h1 style="color: grey; font-size: 35px;"> MAKE PAYMENT:</h1>
+<h3 style="color: grey;">SAFE AND SECURE</h3>
+<br><br><br>
+<body>
+    <form style="text-emphasis-color: gray;">
+    <div class="card-number">
+        <label style="color: grey;"> Card Number* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input
+          type="number"required
+          class="card-number-field"
+          placeholder="###-###-###"/>
+      </div><br>
+    <label style="color: grey;"for="cvv">  cvv* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="number" placeholder="**" id="quantity" name="quantity" required><br><br>
+    <label style="color: grey;"for="card type">Choose your card type*&nbsp;  :</label>
+    <select id="card type" name="card type" aria-placeholder="select bellow" required>
+        <option value=""></option>
+      <option value="Visa debit card">Visa debit card</option>
+      <option value="MasterCard debit card">MasterCard debit card</option>
+      <option value="RuPay debit cards">RuPay debit cards</option>
+      <option value="Maestro Debit Card">Maestro Debit Card</option>
+    </select><br><br>
+    <label style="color: grey;" for="pin"> card pin*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </label>
+    <input style="color: grey;" type="password" required placeholder="**" id="pin" name="pin" ><br><br>
+    <label style="color: grey;" for="date"> card valid from* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="date" id="valid upto" name="valid upto" required><br><br>
+    <label style="color: grey;" for="valid upto"> card valid upto* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    : </label>
+    <input type="date" id="upto" name="upto" required><br><br>
+    <label style="color: grey;" for="name"> name of card holder* &nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="text" id="name" name="name" placeholder="eg:-gayak" required><br><br>
+    <br><br><br>
+
+    <input type="submit" style="font-size: 20px;" ><br><Br>
+</form>
+   
+</body>
+</html>
