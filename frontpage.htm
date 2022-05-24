@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+    <style>
+           .navbar{
+    display: flex;
+}
+.nav-list{
+    width: 50%;
+    
+    display: flex;
+    align-items:center;
+}
+.nav-list li{
+    list-style:none;
+    padding:26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+}
+.rightNav{
+    
+    width: 50%;
+    text-align:right;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 15px;
+}
+.squad7{
+  height:70px;
+  width:180px;
+}
+body{
+    background-color: black;
+}
+p{
+    color:lightgray;
+}
+img{
+    margin-left: 35px;;
+}
+.squad7 {
+  width: 180px;
+  height: 70px;
+  animation: float 3s ease-out infinite;
+}
+@keyframes float{
+  50% {
+     transform: translate(0, 20px);
+  }}
+  html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3333%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 8px 12px 0 rgb(255, 255, 255);
+  margin: 8px;
+}
+h1{
+    color:white;
+}
+
+iframe:hover{
+    width: 100%;
+    height: 400px;
+}
+.vk{
+  color:white;
+  background-color:grey;
+  padding: 20px 15px;
+  text-align: center;
+  margin-top:2%;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="\C:\Users\Dell\OneDrive\Desktop\img\squad7.png" class="squad7" alt="Logo"></div>
+            <li><a href="women.htm">Women</a></li>
+            <li><a href="project_main_2.htm">Men</a></li>
+            <li><a href="kids.htm">Kids</a></li>
+            <li><a href="faqs.htm">FAQS</a></li>
+            <li><a href="profile.htm">Profile</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="serach" id="search">
+            <button class="btn btn-sm">serach</button>
+        </div>
+    </nav>
+    <h1>Men's</h1>
+    <a href="project_main_2.htm">
+    <div class="column">
+        <div class="card">
+            <div class="w3-content-w3-section" style="max-width:500px">
+                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\m12.jfif" style="width:80%">
+                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\m11.jfif" style="width:80%">
+                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\m3.jfif" style="width:80%">
+              </div>
+            </div>
+            </div></a><h1>Women's</h1>
+            <div class="column">
+                <div class="card">
+                
+                
+                <a href="women.htm">
+                    <div class="w3-content-w3-section" style="max-width:500px">
+                        <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\OIP (5).jfif" style="width:80%">
+                        <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\OIP (4).jfif" style="width:80%">
+                        <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\download.jfif" style="width:80%">
+                      </div>
+                    </div>
+                    </div>
+                </a>
+                <h1>Kid's</h1>
+                <a href="kids.htm">
+                    <div class="column">
+                        <div class="card">
+                            <div class="w3-content-w3-section" style="max-width:500px">
+                                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\OIP (6).jfif" style="width:80%">
+                                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\OIP (7).jfif" style="width:80%">
+                                <img class="mySlides" src="\C:\Users\Dell\OneDrive\Desktop\shoes\s1.jfif" style="width:80%">
+                              </div>
+                            </div>
+                            </div>
+                        </a>
+                            <br>
+                            <br>
+                            <br>
+    <div class="df" id="contact">
+        <h2 class="#" style=color:white;>Contact Us</h2>
+        <p style=color:white;>For any query leave you details here. We will contact you as soon as possible.</p>
+        <form action="#" target="_blank">
+          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"><br><br>
+          <input class="#" type="text" placeholder="Email" required name="Email"><br><br>
+          <input class="#" type="text" placeholder="Subject" required name="Subject"><br><br>
+          <input class="#" type="text" placeholder="Comment" required name="Comment"><br><br>
+          <button class="button2" type="submit" onclick="myFunction()">
+            <i class="#"></i> SEND MESSAGE
+          </button>
+        </form>
+        <br><BR>
+        <h1>Shop near you</h1>
+        <iframe src=
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57263.42132806531!2d76.32301797771143!3d30.056672950189117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3911d11630d4c9b7%3A0xd2cddf837838c90a!2sShoe%20Palace!5e0!3m2!1sen!2sin!4v1643223404306!5m2!1sen!2sin" 
+                            width="50%"
+                            height="300px"
+                            frameborder="0"
+                            style="border:0;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0">
+
+                    </iframe>
+                    <script>
+                        function myFunction() {
+                          alert("We recive your message. We will contact you as soon as possible.");
+                        }
+                        </script>
+                        <div class="vk">
+                            Powered by<br>
+                            <br>
+                            <a href="https://www.instagram.com/squad______7/" style="color: white; text-decoration: none;"><strong style="font-size: 22px;"><img src="\C:\Users\Dell\OneDrive\Desktop\shoes\insta.jfif" width="20px" height="25px">Squad7</strong></a>
+                            
+                        </div>
+    </body>
+</html>

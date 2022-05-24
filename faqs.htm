@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+        body{
+            font-family: 'Balsamiq Sans', cursive;
+            background-color:darkslategrey;  
+        }
+        .container-fluid{
+            width: 40%;
+            margin:0 auto;
+            margin-top: 100px;
+        }
+        .container-fluid h2{
+            color:hotpink;
+            position: relative;
+            width:23rem;
+        }
+        .container-fluid h2::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 12px;
+            width:67px;
+            height:2px;
+            background-color:hotpink;
+        }
+        .accordion{
+            width:100%;
+            padding: 0 5px;
+            border:2px solid #05a20a;
+            cursor:pointer;
+            border-radius: 50px;
+            display: flex;
+            margin: 10px 0;
+            align-items:center;
+        }
+        .accordion .icon{
+            margin:0 10px 0;
+            width: 30px;
+            height: 30px;
+            background: url(images\toggle-bg.png) no-repeat 8px 7px #0a6a0a;
+            border-radius:50px;
+            float: left;
+            transition: all .5s ease-in;
+        }
+        .accordion h5{
+            font-size:22px;
+            margin: 0;
+            padding: 8px 0 0 0;
+            font-weight: normal;
+            color: #1f5c9a;
+        }
+        .panel{
+            padding: 0 15px;
+            border-left:1px solid #d6c90b;
+            margin-left:25px;
+            font-size:14px;
+            text-align: justify;
+            overflow: hidden;
+            max-height: 3000px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2>
+            Frequently asked questions(FAqs)</h2>
+            <div class="accordion">
+                <div class="icon"></div>
+                <h5>How to Log in?</h5>
+                </h5>
+            </div>
+        <div class="panel">
+            <p>Go to the main page and click on log in button. Further enter you details. 
+                In this way you can login</p>
+
+        </div>
+        <div class="accordion">
+            <div class="icon"></div>
+            <h5>How to change password?</h5>
+            </h5>
+        </div>
+    <div class="panel">
+        <p>Go to your profile. Click on profile there you get the change password option. 
+            Enter you details you got otp on register mobile number enter that and finally enter your new password.
+        </p>
+            
+    </div>
+    <div class="accordion">
+        <div class="icon"></div>
+        <h5>How to place order</h5>
+        </h5>
+    </div>
+<div class="panel">
+    <p>Placment on our wwebsite is very easy. Select your payment method. 
+        Check your details and finally click on place order.
+    </p>
+    </div>
+    <div class="accordion">
+        <div class="icon"></div>
+        <h5> Warranty pilicies </h5>
+        </h5>
+        </div>
+<div class="panel">
+    <p> If you have box of pair of shoe and also have tag on it 
+        then you are eligible for warranty otherwise you are not eligible.
+    </p>
+
+</div>
+    </div>
+</body>
+</html>
